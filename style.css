@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Inter',  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -14,9 +14,10 @@ body {
 
 /* Header */
 .header {
-  background: linear-gradient(90deg, #667eea , #764ba2 );
+  background: #fff;
   padding: 20px 0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-bottom: 0.5px solid #000000;
 }
 
 .header .container {
@@ -29,7 +30,7 @@ body {
 }
 
 .logo {
-  color: #fff;
+  color: #333;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -41,7 +42,7 @@ body {
 }
 
 .nav a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-weight: 900;
   transition: color 0.3s ease;
@@ -49,7 +50,7 @@ body {
 }
 
 .nav a:hover {
-  color: #ffdd59;
+  color:gold;
 }
 
 /* Hero */
@@ -66,13 +67,13 @@ body {
 .hero-text h2 {
   font-size: 4rem;
   margin-bottom: 20px;
-  color: #1e3a8a;
+  color: #000000;
 }
 
 .hero-text p.welcome {
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color: #555;
+  color: #000000;
 }
 
 .hero-image img {
@@ -83,7 +84,7 @@ body {
 
 .btn {
   padding: 20px 60px;
-  border-radius: 50px;
+  border-radius: 5px;
   border: none;
   cursor: pointer;
   font-weight: 600;
@@ -92,7 +93,7 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: #38AEF7;
   color: #fff;
 }
 
@@ -103,13 +104,14 @@ body {
 
 .btn-secondary {
   background: #fff;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #38AEF7;
+  border: 2px solid #38AEF7;
+  box-shadow: 0 8px 15px rgba(102, 126, 234, 0.3);
 }
 
 .btn-secondary:hover {
-  background: #667eea;
-  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(102, 126, 234, 0.3);
 }
 
 /* Modules */
@@ -152,7 +154,7 @@ body {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: #667eea;
+  background: #38AEF7;
   border-radius: 50%;
   margin-bottom: 10px;
 }
@@ -167,14 +169,15 @@ body {
 .plan-list {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
 .plan {
   background: #fff;
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 5px;
+  border: 0.5px solid #7a7a7a;
   width: 250px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -189,7 +192,15 @@ body {
   font-size: 1.8rem;
   font-weight: bold;
   margin: 15px 0;
-  color: #764ba2;
+  color: #38AEF7;
+}
+
+.plan .price1 {
+  color:#555;
+  width: 190px;
+  font-size: 1.8rem;
+  weight: 50px;
+
 }
 
 .plan ul {
@@ -204,8 +215,7 @@ body {
 
 /* CTA */
 .cta {
-  background: linear-gradient(90deg, #667eea, #764ba2);
-  color: #fff;
+  color: #000000;
   padding: 60px 10%;
   text-align: center;
   border-radius: 20px;
