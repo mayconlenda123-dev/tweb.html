@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TWEB</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="logo">TWEB</h1>
-        <nav class="nav">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#modulos">Modulos</a></li>
-            <li><a href="#planos">Planos</a></li>
-            <li><a href="#time">Time</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TWEB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">TWEB</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#modulos">Modulos</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#time">Time</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <section id="home" class="hero">
     <div class="hero-text">
-      <p class="welcome">Bem Vindo</p>
+      <p class="welcome">Bem-vindo 👋</p>
       <h2>Wireframes<br>Tecnologias Web</h2>
       <button class="btn btn-primary">Acessar</button>
     </div>
     <div class="hero-image">
-      <img src="../Downloads/framework-hostgator.jpg" alt="hero-image">
+      <img src="imgs/JavaScript frameworks-bro 1.png" alt="hero-image">
     </div>
   </section>
 
@@ -39,34 +41,54 @@
     <p class="subtitle">Aprenda HTML e CSS com prática direta e objetiva.</p>
     <div class="module-list">
       <article class="module">
-        <span class="circle blue"></span>
-        <h4>Introdução ao HTML</h4>
+        <div class="titulo"><span class="circle blue"></span>
+          <h4>Introdução ao HTML</h4>
+        </div>
         <p>Aprenda os fundamentos do HTML, tags e estrutura básica.</p>
       </article>
       <article class="module">
-        <span class="circle blue"></span>
-        <h4>Estrutura do HTML</h4>
+        <div class="titulo"><span class="circle blue"></span>
+          <h4>Estrutura do HTML</h4>
+        </div>
         <p>Organize páginas com cabeçalhos, seções e artigos.</p>
       </article>
       <article class="module">
-        <span class="circle blue"></span>
-        <h4>Títulos e Parágrafos</h4>
+        <div class="titulo"><span class="circle blue"></span>
+          <h4>Títulos e Parágrafos</h4>
+        </div>
         <p>Aprenda a usar hierarquia de títulos e textos.</p>
       </article>
       <article class="module">
-        <span class="circle blue"></span>
-        <h4>Links e Imagens</h4>
+        <div class="titulo"><span class="circle blue"></span>
+          <h4>Links e Imagens</h4>
+        </div>
         <p>Incorpore links, imagens e atributos essenciais.</p>
       </article>
       <article class="module">
-        <span class="circle blue"></span>
-        <h4>Listas e Tabelas</h4>
+        <div class="titulo"><span class="circle blue"></span>
+          <h4>Listas e Tabelas</h4>
+        </div>
         <p>Crie listas ordenadas, não ordenadas e tabelas.</p>
       </article>
       <article class="module">
-        <span class="circle blue"></span>
-        <h4>Formulários HTML</h4>
+        <div class="titulo">
+          <span class="circle blue"></span>
+          <h4>Formulários HTML</h4>
+        </div>
         <p>Construa formulários interativos com diversos campos.</p>
+      </article>
+      <article class="module">
+        <div class="titulo">
+          <span class="circle blue"></span>
+          <h4>CSS</h4>
+        </div>
+        <p>There are many reasons to get down and start to get depressed about</p>
+      </article>
+      <article class="module">
+        <div class="titulo"><span class="circle blue"></span>
+          <h4>Tags Estruturais</h4>
+        </div>
+        <p>There are many reasons to get down and start to get depressed about</p>
       </article>
     </div>
   </section>
@@ -77,7 +99,7 @@
     <div class="plan-list">
       <article class="plan">
         <h4>Básico</h4>
-        <p class="price">Gratuito</p>
+        <p class="price1">Gratuito</p>
         <ul>
           <li>Acesso ao conteúdo básico</li>
           <li>Suporte por e-mail</li>
@@ -93,7 +115,7 @@
           <li>Suporte prioritário</li>
           <li>Acesso a webinars exclusivos</li>
         </ul>
-        <button class="btn btn-secondary">Assinar</button>
+        <button class="btn btn-primary">Assinar</button>
       </article>
       <article class="plan">
         <h4>Premium</h4>
@@ -109,9 +131,10 @@
   </section>
 
   <section class="cta">
-    <h3>Pronto Para Aprender HTML e CSS de forma pratica?</h3><br><h3>Clique em Comece Agora ou em Previa</h3>
+    <h3>Pronto Para Aprender HTML e CSS de forma pratica?</h3><br>
+    <h3>Clique em Comece Agora ou em Previa</h3>
     <div class="btn-group">
-     <button class="btn btn-primary">Comece Agora</button>
+      <button class="btn btn-primary">Comece Agora</button>
       <button class="btn btn-secondary">Prévia</button>
     </div>
   </section>
@@ -119,11 +142,11 @@
   <section class="highlight-article">
     <h3>Destaque do Mês</h3>
     <div class="highlight-content">
-      <img src="../Downloads/Instrutor2.jpg" alt="Destaque do Mês">
+      <img src="imgs/destaque.jpg" alt="Destaque do Mês">
       <div class="highlight-text">
         <h4>Domine HTML e CSS</h4>
-        <p>Aprenda a criar páginas web modernas e responsivas com nosso curso completo de HTML e CSS. Desde os fundamentos até técnicas avançadas, você estará pronto para desenvolver sites incríveis.</p>
-        <button class="btn btn-primary">Saiba Mais</button>
+        <p>Aprenda a criar páginas web modernas e responsivas com nosso curso completo de HTML e CSS. Desde os
+          fundamentos até técnicas avançadas, você estará pronto para desenvolver sites incríveis.</p>
       </div>
     </div>
   </section>
@@ -131,21 +154,27 @@
     <h3>Conheça o Time</h3>
     <p class="subtitle">Profissionais dedicados a sua aprendizagem.</p>
     <div class="team-members">
-      <article class="member">
-        <img src="../Downloads/instrutor1.jpg" alt="Instrutor 1">
-        <h4>João Silva</h4>
-        <p>Especialista em Front-end</p>
+      <article class="member-ceo">
+        <img src="imgs/ceo.jpg" alt="Instrutor 1">
+        <div class="text-ceo">
+          <h4>Emerson Santos</h4>
+          <p>Ceo</p>
+        </div>
       </article>
       <article class="member">
-        <img src="../Downloads/instrutor2.jpg" alt="Instrutor 2">
-        <h4>Maria Oliveira</h4>
-        <p>Desenvolvedora Web</p>
+        <img src="imgs/caba1.jpg" alt="Instrutor 2">
+        <h4>Alan Silva</h4>
+        <p>Developer</p>
       </article>
       <article class="member">
-        <img src="../Downloads/instrutor3.jpg" alt="Instrutor 3">
-        <h4>Carlos Souza</h4>
-        <p>Designer UX/UI</p>
+        <img src="imgs/caba2.jpg" alt="Instrutor 3">
+        <h4>Fernanda Lima</h4>
+        <p>Designer</p>
       </article>
+    </div>
+    <div class="lower-text">
+      <p>“ <strong>HTML</strong> é a espinha dorsal da internet, o alicerce invisível de cada página, que dá forma às
+        ideias e conecta o mundo digital. ”</p>
     </div>
   </section>
   <section id="contato" class="contact">
@@ -159,12 +188,43 @@
     </form>
   </section>
   <footer class="footer">
-    <p>&copy; 2025 TWEB. Todos os direitos reservados.</p>
-    <div class="social-links">
-      <a href="https://facebook.com"target="_blank">Facebook</a>
-      <a href="https://x.com"target="_blank">X</a>
-      <a href="https://br.linkedin.com"target="_blank">LinkedIn</a>
+    <div class="footer-container">
+      <div class="footer-left">
+        <h2>TWEB</h2>
+        <p>Disciplina com foco em desenvolvimento web com HTML e CSS</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Team</h3>
+          <ul>
+            <li><a href="#">Available</a></li>
+            <li><a href="#">Our team</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="rights">2025 © Todos os direitos reservados.</p>
+      <div class="social-icons">
+        <a href="https://br,linkedin.com"target="_blank"><img src="imgs/bxl-linkedin.svg.png" alt="LinkedIn"></a>
+        <a href="https://youtube.com"target="_blank"><img src="imgs/bxl-youtube.svg.png" alt="YouTube"></a>
+        <a href="https://instagram.com/mikey.qz"target="_blank"><img src="imgs/bxl-instagram.svg.png" alt="Instagram"></a>
+      </div>
     </div>
   </footer>
-  </body>
+
+</body>
+
 </html>
